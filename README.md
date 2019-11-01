@@ -1,5 +1,3 @@
-Hello guys in a conversation with Austin I suggested a tool and he instructed me to make an introduction to it for you! read more at: https://github.com/PedroDiniz/reactotron-reactjs-intro
-
 # About **reactotron**.
 
 - Documentation can be found at: https://github.com/infinitered/reactotron
@@ -27,11 +25,11 @@ Windows (32-bit & 64-bit)
 - You plug it into your app as a dev dependency so it adds nothing to your product builds.
 - `jsconsole.tron.log` Shows something like the traditional **console.log** in the reactotron interface as a **debug** field.
 
-(.public/docs/debbug.png)
+![](.public/docs/debbug.png)
 
-### To run JSON server api:
+# To run JSON server api:
 
-`Run:`
+**Run:**
 ```
 yarn global add json-server
 or
@@ -40,26 +38,26 @@ then
 json-server server.json -p 3333 -w
 ```
 
-### To run the project:
+# To run the project:
 
-`Run:`
+**Run:**
 ```
 yarn (to install dependencies) and then yarn start (to run the project)
 PS: you can use npm too if you want. To ensure the connection to reactotron the ideal is to open reactotron and then run the application
 ```
 
-### Setup:
+# Setup:
 
-`Run:`
+**Run:**
 ```
 yarn add reactotron-react-js reactotron-redux
 ```
 
 `You can create a config directory with a Reactotronconfig.js file inside. (as we have in this example)`
 
-(.public/docs/directory.png)
+![](.public/docs/directory.png)
 
-![The settings looks like this:]
+The settings looks like this:
 
 ```js
 import Reactotron from 'reactotron-react-js';
@@ -77,7 +75,7 @@ if (process.env.NODE_ENV === 'development') {
   console.tron = tron;
 }
 ```
-`Import **ReactotronConfig** on **~/App.js**`
+**Import ReactotronConfig** on **~/App.js**
 
 ```js
 import './config/ReactotronConfig';
@@ -116,25 +114,25 @@ sagaMiddleware.run(rootSaga);
 export default store;
 ```
 
-### Some cool features:
+# Some cool features:
 You can repeat a **action**:
 
-(.public/docs/repeat.png)
+![](.public/docs/repeat.png)
 
 You can **edit** and **dispatch** again:
 
-(.public/docs/edit.png)
+![](.public/docs/edit.png)
 
 You can do **subscriptions** to monitor specific changes:
 
-(.public/docs/subscriptions.png)
+![](.public/docs/subscriptions.png)
 
 Add a **subscription**:
 
-(.public/docs/subscription.png)
+![](.public/docs/subscription.png)
 
 PS: these subscriptions accept dot notation and so on.
 
 You can work with **snapshots** to restore state:
 
-(.public/docs/snapshots.png)
+![](.public/docs/snapshots.png)
