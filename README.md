@@ -23,7 +23,7 @@ Windows (32-bit & 64-bit)
 
 ### PS:
 - You plug it into your app as a dev dependency so it adds nothing to your product builds.
-- `jsconsole.tron.log` Shows something like the traditional **console.log** in the reactotron interface as a **debug** field.
+- `console.tron.log` Shows something like the traditional **console.log** in the reactotron interface as a **debug** field.
 
 ![](public/docs/debbug.png)
 
