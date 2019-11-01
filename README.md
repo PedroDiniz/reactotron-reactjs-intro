@@ -42,7 +42,10 @@ json-server server.json -p 3333 -w
 
 **Run:**
 ```
-yarn (to install dependencies) and then yarn start (to run the project)
+yarn (to install dependencies)
+and then
+yarn start (to run the project)
+
 PS: you can use npm too if you want.
 To ensure the connection to reactotron the ideal is to open reactotron and then run the application
 ```
